@@ -15,57 +15,57 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\Controller.cpp">
+    <ClCompile Include="Controller.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\DeletedFile.cpp">
+    <ClCompile Include="DeletedFile.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\DrivesInfo.cpp">
+    <ClCompile Include="DrivesInfo.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\Main.cpp">
+    <ClCompile Include="Interface.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\MFTParser.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\PartitionTableParser.cpp">
+    <ClCompile Include="MFTParser.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\Runlist.cpp">
+    <ClCompile Include="PartitionTableParser.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\Interface.cpp">
+    <ClCompile Include="Runlist.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\Interface.h">
+    <ClInclude Include="Controller.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\Runlist.h">
+    <ClInclude Include="DeletedFile.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\TempFile.h">
+    <ClInclude Include="DrivesInfo.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\PartitionTableParser.h">
+    <ClInclude Include="Interface.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\NTFSDataStructures.h">
+    <ClInclude Include="MFTParser.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\MFTParser.h">
+    <ClInclude Include="NTFSDataStructures.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\DrivesInfo.h">
+    <ClInclude Include="PartitionTableParser.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\DeletedFile.h">
+    <ClInclude Include="Runlist.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\Controller.h">
+    <ClInclude Include="TempFile.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

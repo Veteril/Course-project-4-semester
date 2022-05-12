@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="DeletedFile.cpp" />
+    <ClCompile Include="DrivesInfo.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MFTParser.cpp" />
+    <ClCompile Include="PartitionTableParser.cpp" />
+    <ClCompile Include="Runlist.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="DeletedFile.h" />
+    <ClInclude Include="DrivesInfo.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="MFTParser.h" />
+    <ClInclude Include="NTFSDataStructures.h" />
+    <ClInclude Include="PartitionTableParser.h" />
+    <ClInclude Include="Runlist.h" />
+    <ClInclude Include="TempFile.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -142,27 +163,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\Controller.cpp" />
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\DeletedFile.cpp" />
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\DrivesInfo.cpp" />
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\Main.cpp" />
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\MFTParser.cpp" />
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\PartitionTableParser.cpp" />
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\Runlist.cpp" />
-    <ClCompile Include="..\..\..\Course\UndeleteNTFS\Project1\Interface.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\Controller.h" />
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\DeletedFile.h" />
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\DrivesInfo.h" />
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\MFTParser.h" />
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\NTFSDataStructures.h" />
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\PartitionTableParser.h" />
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\Runlist.h" />
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\TempFile.h" />
-    <ClInclude Include="..\..\..\Course\UndeleteNTFS\Project1\Interface.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
